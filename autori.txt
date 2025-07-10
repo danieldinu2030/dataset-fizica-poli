@@ -1,0 +1,5 @@
+# Pentru testare rapida pattern "\\ (Autor)\\" la parsare
+
+\\ (Ion M. Popescu)\\
+\\ (Constantin P. Cristescu)\\
+\\ (Alexandru M. Preda)\\
