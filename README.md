@@ -2,7 +2,7 @@
 
 ## Formatul unei linii (incluzand whitespaces)
 
-`<numar_problema>\\ A) var1; B) var2; C) var3; D) var4; E) var5; F) var6.\\ (<nume_autor>)\\`
+`<numar_ex> <text_ex>\\ A) var1; B) var2; C) var3; D) var4; E) var5; F) var6.\\ (<nume_autor>)\\`
 
 ## Comenzi GitHub
 
