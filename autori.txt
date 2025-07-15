@@ -23,7 +23,6 @@
 \\ (Mihai Cristea)\\
 \\ (Niculae Puşcaş)\\
 \\ (Ileana Creangă)\\
-\\ (Răzvan Mitroi)\\
 \\ (Nicoleta Eşeanu)\\
 \\ (Radu Chişleag)\\
 \\ (Mădălina Puică)\\
@@ -40,3 +39,5 @@
 \\ (Gabriela Cone)\\
 \\ (Alexandrina Nenciu)\\
 \\ (Marcel Dobre)\\
+\\ (Vasile Popescu)\\
+\\ (Alexandru Lupaşcu)\\
