@@ -26,4 +26,5 @@
 
 - `git push origin main` iti include modificarile in proiectul originar
 
+- `git rebase` daca push nu functioneaza, probabil e pentru ca eu am dat push la modificarile mele in timp ce tu lucraisi local exista un conflict; in cazul asta, dai rebase, apoi din nou push
 
