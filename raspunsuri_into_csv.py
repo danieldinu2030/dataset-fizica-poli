@@ -1,61 +1,69 @@
 import re
+import argparse
+import os
 import csv
-import sys
-from pathlib import Path
+from operator import itemgetter
 
-def extract_exercises(latex_content):
-    # Regex pattern to match exercise numbers and answers (handles both 2.x and 3.x)
-    pattern = r"(\d+)\.(\d+) - ([A-Z])"
-    matches = re.findall(pattern, latex_content)
+def parse_latex_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
     
-    # Convert matches to list of dictionaries and sort by exercise number
-    exercises = []
-    for section, num, letter in matches:
-        exercises.append({
-            "exercise_number": f"{section}.{num}",
-            "section": int(section),  # For grouping
-            "numeric_value": int(num),  # For sorting
-            "letter": letter
-        })
+    # Extract section name
+    section_match = re.search(r'\\section\*\{(.*?)\}', content)
+    if not section_match:
+        raise ValueError("Could not find section name in the file")
+    section_name = section_match.group(1)
     
-    # Sort by section first, then by exercise number
-    exercises.sort(key=lambda x: (x["section"], x["numeric_value"]))
+    # Find all exercise-answer pairs
+    pattern = r'(\d+\.\d+) - ([A-Z])'
+    matches = re.findall(pattern, content)
     
-    # Remove temporary fields
-    for ex in exercises:
-        del ex["section"]
-        del ex["numeric_value"]
+    if not matches:
+        raise ValueError("No exercise-answer pairs found in the file")
     
-    return exercises
+    return section_name, matches
 
-def save_to_csv(exercises, output_file):
-    with open(output_file, 'w', newline='') as csvfile:
-        fieldnames = ['exercise_number', 'letter']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        
-        writer.writeheader()
-        writer.writerows(exercises)
+def natural_sort_key(item):
+    """Key function for natural sorting of exercise numbers"""
+    exercise = item[0]  # item is (exercise, answer)
+    return [float(part) for part in exercise.split('.')]
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python extract_exercises.py <input.tex>")
-        sys.exit(1)
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description='Process a LaTeX file with exercises and answers.')
+    parser.add_argument('input_file', help='Path to the LaTeX file to process')
+    args = parser.parse_args()
     
-    input_file = sys.argv[1]
-    output_file = Path(input_file).stem + ".csv"
+    # Check if file exists
+    if not os.path.isfile(args.input_file):
+        print(f"Error: File '{args.input_file}' not found.")
+        return
     
     try:
-        with open(input_file, 'r', encoding='utf-8') as f:
-            latex_content = f.read()
+        # Parse the file
+        section_name, data = parse_latex_file(args.input_file)
+        num_exercises = len(data)
+        print(f"Extracted {num_exercises} exercises from '{args.input_file}'")
         
-        exercises = extract_exercises(latex_content)
-        save_to_csv(exercises, output_file)
+        # Sort the data
+        data_sorted = sorted(data, key=natural_sort_key)
         
-        print(f"Successfully extracted {len(exercises)} exercises to {output_file}")
-    except FileNotFoundError:
-        print(f"Error: File '{input_file}' not found.")
+        # Generate output filename (in same directory as script)
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        input_basename = os.path.splitext(os.path.basename(args.input_file))[0]
+        output_file = os.path.join(script_dir, f"{input_basename}.csv")
+        
+        # Write to CSV
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['Section', 'Exercise', 'Answer'])
+            for exercise, answer in data_sorted:
+                writer.writerow([section_name, exercise, answer])
+        
+        print(f"Results saved to '{output_file}'")
+        
     except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        print(f"Error processing file: {e}")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
