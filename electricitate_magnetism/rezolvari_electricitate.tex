@@ -564,148 +564,70 @@ Fig. prob. 3.84 şi $E=\sqrt{\frac{P}{R_{1}}}\left(R_{1}+r\right)=\sqrt{P}\left(
 3.82. $R_{S}=\frac{R_{A}}{n-1}=\frac{R_{A}}{\frac{I}{I_{A}}-1}=1,515 \mathrm{~A}$.\\
 3.83. $P=P_{1}+P_{2}=2 P_{1}=\frac{4 \cdot U^{2}}{R}$, de unde $R=\frac{4 U^{2}}{P}$. Asemănător, $P^{\prime}=P_{1}^{\prime}+P_{2}^{\prime}=2 P_{1}=\frac{U^{2}}{R_{1}}+\frac{U^{2}}{R_{2}}$, de unde $R_{1} R_{2}=\frac{4 U^{4}}{P^{\prime} P}$. Astfel $R_{1}+R_{2}=\frac{4 U^{2}}{P}$, iar $R_{1}=10 \Omega$ şi $R_{2}=6 \Omega$ sau invers.\\
 3.84. Din legile lui Kirchhoff (Fig. prob. 3.84), $I=I_{1}+I_{2} ; \quad E_{1}=I R$; $I R+r_{2} I_{2}=E_{2}$ şi pentru $I_{1}=0$ rezultă $I=I_{2}$. Atunci: $E_{2}=R I_{2}$ şi $I_{2}=\frac{E_{1}}{R}$. Deci $\left(R+r_{2}\right) I_{2}=E_{2}$, sau $\left(R+r_{2}\right) \frac{E_{1}}{R}=E_{2}$, de unde $E_{1}=\frac{R E_{2}}{R+r_{2}}=90 \mathrm{~V}$.\\
-3.85. Rezistența echivalentă maximă se obține la legarea în serie, adică
 
-$$
-R_{s}=R_{1}+R_{2}+R_{3}=6 \Omega,
-$$
+3.85. Rezistența echivalentă maximă se obține la legarea în serie, adică\\ $R_{s}=R_{1}+R_{2}+R_{3}=6 \Omega,$\\ iar rezistența echivalentă minimă la legarea în paralel, adică\\ $R_{p}=\frac{R_{1} R_{2} R_{3}}{R_{1} R_{2}+R_{2} R_{3}+R_{1} R_{3}}=\frac{6}{11} \Omega .$\\ Produsul cerut este: $p=R_{s} R_{p}=\frac{36}{11} \Omega^{2}$.\\
 
-iar rezistența echivalentă minimă la legarea în paralel, adică
+3.86. Randamentul \\ $\eta_{1}=\frac{R I}{E}=\frac{R}{E} \cdot \frac{E}{R+r}=\frac{R}{R+r}$, iar\\ $\eta_{2}=\frac{R}{E^{\prime}} \cdot \frac{E^{\prime}}{R+r^{\prime}}=\frac{R}{R+r^{\prime}}$\\ În cazul legării în serie, $\eta=\frac{R}{E+E^{\prime}} \cdot \frac{E+E^{\prime}}{R+r^{\prime}+R}$, deoarece $I=\frac{E+E^{\prime}}{R+r^{\prime}+R}$ şi atunci $\eta=\frac{R I I}{\left(E+E^{\prime}\right) I}=\frac{R}{E+E^{\prime}} \cdot \frac{E+E^{\prime}}{R+r^{\prime}+R}$, deci $R=\eta_{1} R+\eta_{1} r$, de unde\\ $r=\frac{R\left(1-\eta_{1}\right)}{\eta_{1}}=\frac{7}{3} R$\\ Dar, $r^{\prime}=R$ din $\left(\frac{1-0,5}{0,5}\right) R=r^{\prime}$. Rezultă $\eta=\frac{R}{\frac{7}{3} R+R+R}=0,23$.\\
 
-$$
-R_{p}=\frac{R_{1} R_{2} R_{3}}{R_{1} R_{2}+R_{2} R_{3}+R_{1} R_{3}}=\frac{6}{11} \Omega .
-$$
-
-Produsul cerut este: $p=R_{s} R_{p}=\frac{36}{11} \Omega^{2}$.\\
-3.86. Randamentul
-
-$$
-\begin{aligned}
-& \eta_{1}=\frac{R I}{E}=\frac{R}{E} \cdot \frac{E}{R+r}=\frac{R}{R+r}, \text { iar } \\
-& \eta_{2}=\frac{R}{E^{\prime}} \cdot \frac{E^{\prime}}{R+r^{\prime}}=\frac{R}{R+r^{\prime}}
-\end{aligned}
-$$
-
-În cazul legării în serie, $\eta=\frac{R}{E+E^{\prime}} \cdot \frac{E+E^{\prime}}{R+r^{\prime}+R}$, deoarece $I=\frac{E+E^{\prime}}{R+r^{\prime}+R}$ şi atunci $\eta=\frac{R I I}{\left(E+E^{\prime}\right) I}=\frac{R}{E+E^{\prime}} \cdot \frac{E+E^{\prime}}{R+r^{\prime}+R}$, deci $R=\eta_{1} R+\eta_{1} r$, de unde
-
-$$
-r=\frac{R\left(1-\eta_{1}\right)}{\eta_{1}}=\frac{7}{3} R
-$$
-
-Dar, $r^{\prime}=R \operatorname{din}\left(\frac{1-0,5}{0,5}\right) R=r^{\prime}$. Rezultă $\eta=\frac{R}{\frac{7}{3} R+R+R}=0,23$.\\
 3.87. Intensitatea de scurtcircuit este $I_{0}=\frac{E}{r}$, iar $I=\frac{E}{R+r}$, din legea lui Ohm. Randamentul $\eta=\frac{R I^{2}}{E I}=\frac{R I}{E}=\frac{R}{E} \cdot \frac{E}{R+r}=\frac{R}{R+r}$. Dar, $R+r=\frac{E}{I}$, iar $r=\frac{E}{I_{0}}$ şi atunci $R=E\left[\frac{1}{I}-\frac{1}{I_{0}}\right]$. Astfel, $\eta=I\left(\frac{1}{I}-\frac{1}{I_{0}}\right)=1-\frac{I}{I_{0}}=0,8$.\\
-3.88. Rezistența grupării serie este $R=\frac{E}{I}=750 \Omega$. Deoarece rezistența echivalentă este $R=R_{1}+R_{2}+R_{3}$, se poate determina valoarea rezistenței necunoscute: $R_{3}=R-\left(R_{1}+R_{2}\right)=350 \Omega$.
 
-Căderea de tensiune pe fiecare rezistor va fi:
+3.88. Rezistența grupării serie este $R=\frac{E}{I}=750 \Omega$. Deoarece rezistența echivalentă este $R=R_{1}+R_{2}+R_{3}$, se poate determina valoarea rezistenței necunoscute: $R_{3}=R-\left(R_{1}+R_{2}\right)=350 \Omega$.\\ Căderea de tensiune pe fiecare rezistor va fi:\\ $U_{1}=R_{1} I=8 \mathrm{~V} ; U_{12}=R_{2} I=4,8 \mathrm{~V} ; U_{3}=R_{3} I=11,2 \mathrm{~V}$\\ După cum se poate verifica: $U=U_{1}+U_{2}+U_{3}$.\\
 
-$$
-U_{1}=R_{1} I=8 \mathrm{~V} ; U_{12}=R_{2} I=4,8 \mathrm{~V} ; U_{3}=R_{3} I=11,2 \mathrm{~V}
-$$
+3.89. Puterea disipată pe un rezistor $R$ pe care cade tensiunea electrică $U$ este: $P=\frac{U^{2}}{R}$. Deoarece se foloseşte aceeaşi sursă de energie singura mărime care se schimbă în cele două situații este rezistența.\\ Pentru gruparea serie: $R_{S}=R+R=2 R$, iar pentru gruparea paralel: $R_{p}=\frac{R \cdot R}{R+R}=\frac{R}{2}$. Ca urmare: $P_{s}=\frac{U^{2}}{2 R} ; P_{p}=\frac{U^{2}}{R / 2}$ de unde $\frac{P_{s}}{P_{p}}=\frac{1}{4}$.\\
 
-După cum se poate verifica: $U=U_{1}+U_{2}+U_{3}$.\\
-3.89. Puterea disipată pe un rezistor $R$ pe care cade tensiunea electrică $U$ este: $P=\frac{U^{2}}{R}$. Deoarece se foloseşte aceeaşi sursă de energie singura mărime care se schimbă în cele două situații este rezistența.
+3.90. Deoarece circuitul este format din două rezistoare grupate în serie, curentul electric care circulă prin circuit este același, egal cu $1 \mathrm{~A}$.\\
 
-Pentru gruparea serie: $R_{S}=R+R=2 R$, iar pentru gruparea paralel: $R_{p}=\frac{R \cdot R}{R+R}=\frac{R}{2}$. Ca urmare: $P_{s}=\frac{U^{2}}{2 R} ; P_{p}=\frac{U^{2}}{R / 2}$ de unde $\frac{P_{s}}{P_{p}}=\frac{1}{4}$.\\
-3.90. Deoarece circuitul este format din două rezistoare grupate în serie, curentul electric care circulă prin circuit este același, egal cu 1A.\\
-3.91. $P_{1}=\frac{U^{2}}{R_{1}} ; P_{2}=\frac{U^{2}}{R_{2}}$, de unde $R_{1}=\frac{U^{2}}{P_{1}} ; R_{2}=\frac{U^{2}}{P_{2}}$;
+3.91. $P_{1}=\frac{U^{2}}{R_{1}} ; P_{2}=\frac{U^{2}}{R_{2}}$, de unde $R_{1}=\frac{U^{2}}{P_{1}} ; R_{2}=\frac{U^{2}}{P_{2}}$;\\ $R_{s}=R_{1}+R_{2}=R_{1}=\frac{U^{2}\left(P_{1}+P_{2}\right)}{P_{1} P_{2}} ; \frac{1}{R_{p}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}=\frac{P_{1}+P_{2}}{U^{2}}$;\\ $P_{s}=\frac{U^{2}}{R_{s}}=\frac{P_{1} P_{2}}{P_{1}+P_{2}} ; P_{p}=\frac{U^{2}}{R_{p}}=P_{1}+P_{2}$\\ $\frac{W_{p}}{W_{s}}=\frac{P_{p} \tau}{P_{s} \tau}=\frac{\left(P_{1}+P_{2}\right)^{2}}{P_{1} P_{2}}=4,5$.\\
 
-$$
-\begin{aligned}
-& R_{s}=R_{1}+R_{2}=R_{1}=\frac{U^{2}\left(P_{1}+P_{2}\right)}{P_{1} P_{2}} ; \frac{1}{R_{p}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}=\frac{P_{1}+P_{2}}{U^{2}} ; \\
-& P_{s}=\frac{U^{2}}{R_{s}}=\frac{P_{1} P_{2}}{P_{1}+P_{2}} ; P_{p}=\frac{U^{2}}{R_{p}}=P_{1}+P_{2} \\
-& \frac{W_{p}}{W_{s}}=\frac{P_{p} \tau}{P_{s} \tau}=\frac{\left(P_{1}+P_{2}\right)^{2}}{P_{1} P_{2}}=4,5 .
-\end{aligned}
-$$
-
-3.92. Pentru două rezistoare $R_{1}$ şi $R_{2}$ :
-
-$$
-R_{s}=R_{1}+R_{2} ; R_{p}=\frac{R_{1} R_{2}}{R_{1}+R_{2}} ; \quad \frac{R_{s}}{R_{p}}=\frac{\left(R_{1}+R_{2}\right)^{2}}{R_{1} R_{2}}>2^{2}
-$$
-
-Pentru trei rezistoare $R_{1}, R_{2}$ şi $R_{3}$ :
-
-$$
-\begin{aligned}
-& R_{s}=R_{1}+R_{2}+R_{3} ; R_{p}=\frac{R_{1} R_{2} R_{3}}{R_{1} R_{2}+R_{2} R_{3}+R_{1} R_{3}} \\
-& \frac{R_{s}}{R_{p}}=\frac{\left(R_{1}+R_{2}+R_{3}\right)\left(R_{1} R_{2}+R_{2} R_{3}+R_{1} R_{3}\right)}{R_{1} R_{2} R_{3}}
-\end{aligned}
-$$
+3.92. Pentru două rezistoare $R_{1}$ şi $R_{2}$ :\\ $R_{s}=R_{1}+R_{2} ; R_{p}=\frac{R_{1} R_{2}}{R_{1}+R_{2}} ; \quad \frac{R_{s}}{R_{p}}=\frac{\left(R_{1}+R_{2}\right)^{2}}{R_{1} R_{2}}>2^{2}$\\ Pentru trei rezistoare $R_{1}, R_{2}$ şi $R_{3}$ :\\ $R_{s}=R_{1}+R_{2}+R_{3} ; R_{p}=\frac{R_{1} R_{2} R_{3}}{R_{1} R_{2}+R_{2} R_{3}+R_{1} R_{3}}$\\ $\frac{R_{s}}{R_{p}}=\frac{\left(R_{1}+R_{2}+R_{3}\right)\left(R_{1} R_{2}+R_{2} R_{3}+R_{1} R_{3}\right)}{R_{1} R_{2} R_{3}}$
 
 Ştiind că media aritmetică a trei numere diferite este mai mare decât media lor geometrică avem: $\frac{R_{1}+R_{2}+R_{3}}{3}>\sqrt[3]{R_{1} R_{2} R_{3}} ; \quad \frac{R_{1} R_{2}+R_{2} R_{3}+R_{1} R_{3}}{3}>\sqrt[3]{R_{1}^{2} R_{2}^{2} R_{3}^{2}}$, iar prin înmulțire: $\frac{\left(R_{1}+R_{2}+R_{3}\right)\left(R_{1} R_{2}+R_{2} R_{3}+R_{1} R_{3}\right)}{9}>R_{1} R_{2} R_{3}$, de unde $\frac{R_{s}}{R_{p}}>3^{2}$. Procedând la fel pentru $n$ rezistoare, $\frac{R_{S}}{R_{p}}>n^{2}$.\\
+
 3.93. Din legea lui Ohm $I R+I r=E$ rezultă $R=\frac{E}{I}-r$. În al doilea caz, $n I \frac{R}{k}+n I r=E$. Înlocuind valoarea lui $R$ se obține relația $r I n\left(1-\frac{1}{k}\right)=E\left(1-\frac{n}{k}\right)$. Intensitatea curentului de scurtcircuit este $I_{0}=\frac{E}{r}=I \frac{n(k-1)}{k-n}$.\\
+
 3.94. Cele două rezistențe legate în paralel pot fi înlocuite cu rezistența echivalentă $R_{p}=\frac{R_{3} R_{2}}{R_{3}+R_{2}}=\frac{12}{5} \Omega$. Astfel întregul circuit are rezistența echivalentă $R_{e}=R_{1}+R_{p}+R_{4}=4 \Omega$, iar $I=\frac{E}{R_{e}+r_{e}}==\frac{n e}{R_{e}+n r}=4 \mathrm{~A}$.\\
-3.95. Din legea lui Ohm, $I_{1}=\frac{E}{R_{1}+r}$, iar $P_{1}=R_{1} I_{1}^{2}=\frac{R_{1} E^{2}}{\left(R_{1}+r\right)^{2}}$.
 
-Asemǎnător, $I_{2}=\frac{E}{R_{2}+r}$ şi $P_{2}=R_{2} I_{2}^{2}=\frac{R_{2} E^{2}}{\left(R_{2}+r\right)^{2}}$. Din condiția $P_{1}=P_{2}$ rezultă $\sqrt{\frac{R_{1}}{R_{2}}}=\frac{R_{1}+r}{R_{2}+r}$, de unde $r=\sqrt{R_{1} \cdot R_{2}}$.\\
+3.95. Din legea lui Ohm, $I_{1}=\frac{E}{R_{1}+r}$, iar $P_{1}=R_{1} I_{1}^{2}=\frac{R_{1} E^{2}}{\left(R_{1}+r\right)^{2}}$.\\ Asemǎnător, $I_{2}=\frac{E}{R_{2}+r}$ şi $P_{2}=R_{2} I_{2}^{2}=\frac{R_{2} E^{2}}{\left(R_{2}+r\right)^{2}}$. Din condiția $P_{1}=P_{2}$ rezultă $\sqrt{\frac{R_{1}}{R_{2}}}=\frac{R_{1}+r}{R_{2}+r}$, de unde $r=\sqrt{R_{1} \cdot R_{2}}$.\\
+
 3.96. Legea lui Ohm pentru un circuit simplu este $I=\frac{E}{R+r}$, iar puterea disipată pe rezistenţa $R$ va fi: $P=R I^{2}=R \frac{E^{2}}{(R+r)^{2}}$ (1). Din enunțul problemei şi folosind relația (1) putem scrie: $P=R_{1} \frac{E^{2}}{\left(R_{1}+r\right)^{2}}=R_{2} \frac{E^{2}}{\left(R_{2}+r\right)^{2}}$ (2). Din relația (2) obținem: $\frac{R_{1}}{R_{2}}=\left(\frac{R_{1}+r}{R_{2}+r}\right)^{2}$ sau $\frac{\sqrt{R_{1}}}{\sqrt{R_{2}}}=\frac{R_{1}+r}{R_{2}+r}$. Din ultima relație rezultă: $r\left(\sqrt{R_{2}}-\sqrt{R_{1}}\right)=R_{2} \sqrt{R_{1}}-R_{1} \sqrt{R_{2}}$, de unde obținem: $r=\sqrt{R_{1} R_{2}}=10 \Omega \quad$ (3). Folosind prima parte a relației (2), datele din enunțul problemei şi relația (3) rezultă: $E=\left(R_{1}+r\right) \sqrt{\frac{P}{R_{1}}}=60 \mathrm{~V}$.\\
-3.97. Intensitatea curentului prin circuit este: $I=\frac{U}{R_{V_{1}}+R_{V_{2}}}$, iar tensiunea indicată de fiecare voltmetru este:\\
-respectiv
 
-$$
-\begin{aligned}
-& U_{1}=I R_{1}=\frac{U}{R_{V_{1}}+R_{V_{2}}} R_{V_{1}}=10,9 \mathrm{~V}, \\
-& U_{2}=I R_{2}=\frac{U}{R_{V_{1}}+R_{V_{2}}} R_{V_{2}}=109,1 \mathrm{~V} .
-\end{aligned}
-$$
+3.97. Intensitatea curentului prin circuit este: $I=\frac{U}{R_{V_{1}}+R_{V_{2}}}$, iar tensiunea indicată de fiecare voltmetru este:\\ respectiv\\ $U_{1}=I R_{1}=\frac{U}{R_{V_{1}}+R_{V_{2}}} R_{V_{1}}=10,9 \mathrm{~V}$, \\$ U_{2}=I R_{2}=\frac{U}{R_{V_{1}}+R_{V_{2}}} R_{V_{2}}=109,1 \mathrm{~V}$.\\
 
-3.98. Rezistența echivalentă a rezistențelor grupate în paralel este: $R=\frac{R_{1} R_{2}}{R_{1}+R_{2}}=36 \Omega$. Intensitatea totală este: $I=\frac{U}{R}=3,33 \mathrm{~A}$. Intensitățile prin cele douǎ rezistenţe sunt: $I_{1}=\frac{U}{R_{1}}=2 \mathrm{~A}, I_{2}=\frac{U}{R_{21}}=1,33 \mathrm{~A}$ (la capetele fiecărui rezistor avem aceeaşi diferență de potențial de 120 V ).\\
+3.98. Rezistența echivalentă a rezistențelor grupate în paralel este: $R=\frac{R_{1} R_{2}}{R_{1}+R_{2}}=36 \Omega$. Intensitatea totală este: $I=\frac{U}{R}=3,33 \mathrm{~A}$. Intensitățile prin cele douǎ rezistenţe sunt: $I_{1}=\frac{U}{R_{1}}=2 \mathrm{~A}, I_{2}=\frac{U}{R_{21}}=1,33 \mathrm{~A}$ (la capetele fiecărui rezistor avem aceeaşi diferență de potențial de $120 \mathrm{~V}$).\\
+
 3.99. Curentul care străbate circuitul este: $I=\frac{e-e^{\prime}}{R+r}=0,5 \mathrm{~A}$ unde $e$ este tensiunea electromotore a sursei, iar $e^{\prime}$ este tensiunea contraelectromotoare. Masa de argint care se depune în timpul procesului de electroliză este: $m=\frac{1}{F} \cdot \frac{A}{n} I t$, unde $F=96400 \mathrm{C} / \mathrm{Eg}, A$ masa atomică, iar $n$ valența. Înlocuind, se obține: $m=1 \mathrm{~g}$.\\
+
 3.100 Rezistenta echivalentă a circuitului care este de forma: $R=\frac{R_{1} R_{2}}{R_{1}+R_{2}}$. Puterea absorbită de circuit este $P=R I^{2}=R\left(\frac{E}{R+r}\right)^{2}$. Puterea maximă se obține egalând derivata puterii în raport cu $R$ cu zero, adică: $\frac{d P}{d R}=0$ sau: $\frac{E^{2}(R-r)}{(R+r)^{2}}=0$, de unde se obține: $R=r$. Ţinând cont de expresia rezistenței $R$, se obține valoarea lui $R_{2}: R_{2}=\frac{r R_{1}}{R_{1}-r}=3 \Omega$.\\
+
 3.101. Conform legii lui Joule-Lenz, $Q=U I t=U^{2} t / R$, de unde $R=U^{2} t / Q=9,97 \Omega \approx 10 \Omega$.\\
+
 3.102. $V_{A}-V_{B}=E_{1}-E_{2}+I\left(R_{1}+R_{2}+r_{1}+r_{2}\right)=-11 \mathrm{~V}$.\\
-3.103. Observăm că putem considera că rezistorul $R_{1}=7 R$ este în paralel cu $R$. Rezistența lor echivalentă este:
 
-$$
-\begin{aligned}
-& I=E /\left(R_{\mathrm{ext}}+r\right)=10 E /(21 R), \text { iar din legile Kirchhoff: } \\
-& I=I_{A}+I_{1} \text { şi } I_{A} R=I_{1} R_{1} \Rightarrow I_{A}=I R_{1} /\left(R_{1}+R\right)=5 E /(12 R) .
-\end{aligned}
-$$
+3.103. Observăm că putem considera că rezistorul $R_{1}=7 R$ este în paralel cu $R$. Rezistența lor echivalentă este:\\ $I=E /\left(R_{\mathrm{ext}}+r\right)=10 E /(21 R)$, iar din legile Kirchhoff: \\ $I=I_{A}+I_{1}$ şi $I_{A} R=I_{1} R_{1} \Rightarrow I_{A}=I R_{1} /\left(R_{1}+R\right)=5 E /(12 R)$.\\
 
-3.104. În lipsa şuntului, ampermetrul indică $N_{1}=50$ diviziuni pentru un curent $I_{1}=1 \mathrm{~A}$. Deci, valoarea unei diviziuni este $i_{0}=I_{1} / N_{1}=0,02 \mathrm{~A} / \mathrm{div}$.
+3.104. În lipsa şuntului, ampermetrul indică $N_{1}=50$ diviziuni pentru un curent $I_{1}=1 \mathrm{~A}$. Deci, valoarea unei diviziuni este $i_{0}=I_{1} / N_{1}=0,02 \mathrm{~A} / \mathrm{div}$.\\ În prezența şuntului, $I_{2}=5 \mathrm{~A}, N_{2}=10$, iar valoarea unei diviziuni este $i=\frac{I_{2}}{N_{2}}=0,5 \mathrm{~A} /$ div şi reprezintă factorul de mărire al scalei. Din formula rezistenței șuntului: $R_{S}=r /(n-1)=1,5 \Omega$.\\
 
-În prezența şuntului, $I_{2}=5 \mathrm{~A}, N_{2}=10$, iar valoarea unei diviziuni este $i=\frac{I_{2}}{N_{2}}=0,5 \mathrm{~A} /$ div şi reprezintă factorul de mărire al scalei. Din formula rezistenței șuntului: $R_{S}=r /(n-1)=1,5 \Omega$.\\
-3.105. Rezistențele $R_{V}$ şi $R / 3$ sunt legate în paralel (Fig. prob. 3.105). Rezistența lor echivalentă este: $R_{e}=R_{V} R /\left(3 R_{V}+R\right)$; intensitatea curentului principal:
+3.105. Rezistențele $R_{V}$ şi $R / 3$ sunt legate în paralel (Fig. prob. 3.105). Rezistența lor echivalentă este: $R_{e}=R_{V} R /\left(3 R_{V}+R\right)$; intensitatea curentului principal:\\ $I=U /\left(R_{e}+2 R / 3\right)$\\ indicația voltmetrului este: $U_{V}=I R_{e}=96 \mathrm{~V}$.\\ \begin{center} \includegraphics[max width=\textwidth]{2025_07_01_5b3ff9fa0d508c8e9f17g-362}\\ Fig. prob. 3.105 \end{center}\\
 
-$$
-I=U /\left(R_{e}+2 R / 3\right)
-$$
 
-\begin{center}
-\includegraphics[max width=\textwidth]{2025_07_01_5b3ff9fa0d508c8e9f17g-362}
-\end{center}
-
-Fig. prob. 3.105\\
-indicația voltmetrului este: $U_{V}=I R_{e}=96 \mathrm{~V}$.\\
 3.106. Puterea exterioară totală este egală cu suma puterilor din bec şi reostat: $P=U I+R I^{2}$; obținem ecuația: $I^{2}+I-20=0$ cu soluțiile: $I_{1}=4 \mathrm{~A}$ şi $I_{2}=-5 \mathrm{~A}$ (care nu are sens fizic); deci: $I=4 \mathrm{~A}$.\\
+
 3.107. Pentru o sursă ideală $(r=0): P=E^{2} / R_{e} ; \quad P_{1} / P_{2}=R_{e 2} / R_{e 1}$; $R_{e 1}=5 R / 6 ; R_{e 2}=6 R$. Raportul $P_{1} / P_{2}=7,2$.\\
+
 3.108. Cazul 1: $P=I_{1}^{2} R=\frac{E^{2} R}{(R+r)^{2}}$. Cazul 2: $R^{\prime}=1,8 R ; P^{\prime}=1,25 P$, dar: $P^{\prime}=\frac{E^{2} R^{\prime}}{\left(R^{\prime}+r\right)^{2}}$. Din aceste ecuații rezultă: $r=3 R$ şi $E^{2}=2400 R$. Cazul 3: $R^{\prime \prime}=0,75 R ; P^{\prime \prime}=\frac{E^{2} R^{\prime \prime}}{\left(R^{\prime \prime}+r\right)^{2}}=128 \mathrm{~W}$.\\
-3.109. Randamentul circuitului: $\eta=\frac{P_{\text {utilā }}}{P_{\text {consumată }}}=\frac{I^{2} R}{I^{2}(R+r)}=\frac{R}{R+r}$; $\eta_{1}=\frac{R}{R+r_{1}} \operatorname{din}$ care: $r_{1}=\frac{R\left(1-\eta_{1}\right)}{\eta_{1}}$. Analog: $r_{2}=\frac{R\left(1-\eta_{2}\right)}{\eta_{2}}$ şi $r_{\text {echiv }}=r_{1}+r_{2}=$ $=\frac{R(1-\eta)}{\eta}$; rezultă $\eta=\frac{\eta_{1} \eta_{2}}{\eta_{1}+\eta_{2}-\eta_{1} \eta_{2}} \cong 31,6 \%$.\\
-3.110. $R^{\prime}=2 R / 3$ ( $R$ şi $2 R$ in paralel); $R^{\prime \prime}=R^{\prime}+R=5 R / 3$;
 
-$$
-1 / R_{\mathrm{e}}=1 / R^{\prime \prime}+1 / R^{\prime \prime}+1 / R=11 /(5 R) ; R_{\mathrm{e}}=10 \Omega ;
-$$
+3.109. Randamentul circuitului: $\eta=\frac{P_{\text {utilā }}}{P_{\text {consumată }}}=\frac{I^{2} R}{I^{2}(R+r)}=\frac{R}{R+r}$; $\eta_{1}=\frac{R}{R+r_{1}}$ din care: $r_{1}=\frac{R\left(1-\eta_{1}\right)}{\eta_{1}}$. Analog: $r_{2}=\frac{R\left(1-\eta_{2}\right)}{\eta_{2}}$ şi $r_{\text {echiv }}=r_{1}+r_{2}=$ $=\frac{R(1-\eta)}{\eta}$; rezultă $\eta=\frac{\eta_{1} \eta_{2}}{\eta_{1}+\eta_{2}-\eta_{1} \eta_{2}} \cong 31,6 \%$.\\
 
-Din legea lui Ohm pentru intregul circuit: $I=E /\left(R_{\mathrm{e}}+R_{\mathrm{V}}+r\right)=10 \mathrm{~A}$; din legea electrolizei: $m=k I t=10,8 \mathrm{~g}$.\\
+3.110. $R^{\prime}=2 R / 3$ ( $R$ şi $2 R$ in paralel); $R^{\prime \prime}=R^{\prime}+R=5 R / 3$;\\ $1 / R_{\mathrm{e}}=1 / R^{\prime \prime}+1 / R^{\prime \prime}+1 / R=11 /(5 R) ; R_{\mathrm{e}}=10 \Omega ;$\\ Din legea lui Ohm pentru intregul circuit: $I=E /\left(R_{\mathrm{e}}+R_{\mathrm{V}}+r\right)=10 \mathrm{~A}$; din legea electrolizei: $m=k I t=10,8 \mathrm{~g}$.\\
+
 3.111. $R_{\mathrm{e}}=4 R / 5$ şi intensitatea curentului principal este $I_{\mathrm{p}}=5 E /(4 R+5 r)$.\\
+
 3.112. Intensitatea curentului este: $I=\frac{E}{R_{1}+R_{2}+r}=2 \mathrm{~A}$.\\
-3.113. Conform Fig. prob. $3.113: I=I_{1}+I_{2}=10,5 \mathrm{~A} ; U_{A B}=R_{A} I_{1}=0,5 \mathrm{~V}$, unde: $R=\rho \frac{l}{S}=5 \cdot 10^{-2} \Omega$. Deci, $I_{2}=\frac{U}{R}=10 \mathrm{~A}$.\\
-\includegraphics[max width=\textwidth, center]{2025_07_01_5b3ff9fa0d508c8e9f17g-363}
 
-Fig. prob. 3.113\\
-\includegraphics[max width=\textwidth, center]{2025_07_01_5b3ff9fa0d508c8e9f17g-363(1)}
+3.113. Conform Fig. prob. 3.113: $I=I_{1}+I_{2}=10,5 \mathrm{~A} ; U_{A B}=R_{A} I_{1}=0,5 \mathrm{~V}$, unde: $R=\rho \frac{l}{S}=5 \cdot 10^{-2} \Omega$. Deci, $I_{2}=\frac{U}{R}=10 \mathrm{~A}$.\\
+\begin{center} \includegraphics[max width=\textwidth, center]{2025_07_01_5b3ff9fa0d508c8e9f17g-363}\\ Fig. prob. 3.113 \end{center}\\
 
-Fig. prob. 3.114\\
-3.114. Conform Fig. prob. 3.114,
-
-$$
-\begin{aligned}
-& I=\frac{E}{r+R}=12 \mathrm{~A} ; I_{1}=\frac{E}{r+1,5 R}=9 \mathrm{~A} ; \\
-& I_{2}=\frac{E}{r+0,75 R}=14,4 \mathrm{~A} .
-\end{aligned}
-$$
+3.114. Conform Fig. prob. 3.114,\\ $I=\frac{E}{r+R}=12 \mathrm{~A} ; I_{1}=\frac{E}{r+1,5 R}=9 \mathrm{~A} ; \\ I_{2}=\frac{E}{r+0,75 R}=14,4 \mathrm{~A}$.\\ \begin{center} \includegraphics[max width=\textwidth, center]{2025_07_01_5b3ff9fa0d508c8e9f17g-363(1)}\\ Fig. prob. 3.114 \end{center}\\
 
 3.115. Conform Fig. prob. 3.115,\\ $I=\frac{n E}{n r+\frac{R_{1} R_{2}}{R_{1}+R_{2}}}=12$, iar $\Delta U=I r=0,33 \mathrm{~V}$.\\ \begin{center} \includegraphics[max width=\textwidth, center]{2025_07_01_5b3ff9fa0d508c8e9f17g-364}\\ Fig. prob. 3.115 \end{center}\\
 
@@ -721,7 +643,7 @@ $$
 
 3.121. $B=\mu_{0} \mu_{r} \frac{N I}{l}=4,8 \cdot 10^{-4} \mathrm{~T}$.\\
 
-3.122. Din legea inducției electromagnetice $e=-\frac{\Delta \Phi_{m}}{\Delta t}$ şi legea lui Ohm $I=\frac{e}{R}$ rezultă sarcina $q=I \Delta t=-\frac{\Delta \Phi_{m}}{R}=\frac{\Phi_{m_{\text {initial }}}-\Phi_{m \text { final }}}{R}$, unde $\Phi_{m \text { initial }}=\Phi$, iar $\Phi_{m \text { final }}=0$. Astfel, $q=\frac{\Phi}{R}=2 \cdot 10^{-4} \mathrm{~C}$.\\
+3.122. Din legea inducției electromagnetice $e=-\frac{\Delta \Phi_{m}}{\Delta t}$ şi legea lui Ohm $I=\frac{e}{R}$ rezultă sarcina $q=I \Delta t=-\frac{\Delta \Phi_{m}}{R}=\frac{\Phi_{m_{\text {initial }}}-\Phi_{m_{\text { final }}}}{R}$, unde $\Phi_{m_{\text { initial }}}=\Phi$, iar $\Phi_{m_\text { final }}}=0$. Astfel, $q=\frac{\Phi}{R}=2 \cdot 10^{-4} \mathrm{~C}$.\\
 
 3.123. Din condiția de mişcare pe cerc, $e v B=\frac{m v^{2}}{r}$, rezultă viteza:\\ $v=\frac{e}{m} B r=3,696 \cdot 10^{7} \mathrm{~m} / \mathrm{s}$\\
 
@@ -763,7 +685,7 @@ $$
 
 3.142. Punctul cel mai apropiat, la distantă egală de cele trei conductoare se află la intersecția mediatoarelor, deci la distanța $a$ de fiecare dintre conductoare. (Fig. prob. 3.142).\\ Astfel, $\left|\vec{B}_{1}\right|=\left|\vec{B}_{2}\right|=\left|\vec{B}_{3}\right|=\mu_{0} \frac{I_{1}}{2 \pi r}$, iar $a=\frac{2}{3} \sqrt{3 \frac{d^{2}}{4}}=\frac{d \sqrt{3}}{3}$ şi $\alpha=120^{\circ}$.\\ Deci $\vec{B}_{\text {rez }}=2 \vec{B}_{3}$ (deoarece $\vec{B}_{3}$ este pe direcția bisectoarei unghiului $\alpha$ ). În final, $\left|\vec{B}_{r e z}\right|=2 \mu_{0} \frac{3 I_{1}}{2 \pi d \sqrt{3}}=11,53 \cdot 10^{-6} \mathrm{~T}$.\\ \begin{center} \includegraphics[max width=\textwidth, center]{2025_07_01_5b3ff9fa0d508c8e9f17g-369}\\ Fig. prob. 3.142 \end{center}\\
 
-3.143. Variațiile fluxului magnetic la rotirea spirei este :\\ $\Delta \Phi=B S\left(\cos 0-\cos \frac{\pi}{6}\right)=\frac{\pi d^{2}}{4} B\left(1-\frac{\sqrt{3}}{2}\right)=0,134 \pi \frac{\pi d^{2}}{4} B$.\\ (Fig. prob. 3.143). Din legea Faraday, tensiunea electromotoare indusă este:\\ $e=\left|\frac{\Delta \Phi}{\Delta t}\right| \text {, iar din legea lui Ohm, } I=\frac{e}{R}$.\\ \begin{center} \includegraphics[max width=\textwidth, center]{2025_07_01_5b3ff9fa0d508c8e9f17g-369(1)}\\ Fig. prob. 3.143 \end{center}\\
+3.143. Variațiile fluxului magnetic la rotirea spirei este :\\ $\Delta \Phi=B S\left(\cos 0-\cos \frac{\pi}{6}\right)=\frac{\pi d^{2}}{4} B\left(1-\frac{\sqrt{3}}{2}\right)=0,134 \pi \frac{\pi d^{2}}{4} B$.\\ (Fig. prob. 3.143). Din legea Faraday, tensiunea electromotoare indusă este:\\ $e=\left|\frac{\Delta \Phi}{\Delta t}\right|$, iar din legea lui Ohm, $I=\frac{e}{R}$.\\ \begin{center} \includegraphics[max width=\textwidth, center]{2025_07_01_5b3ff9fa0d508c8e9f17g-369(1)}\\ Fig. prob. 3.143 \end{center}\\
 
 Sarcina electrică indusă în spiră, $q=I \Delta t=\left|\frac{\Delta \Phi}{\Delta t}\right| \quad \frac{\Delta t}{R}=\frac{\Delta \Phi}{R} \quad q=1,077 \cdot 10^{-5} \mathrm{C}$.\\
 
