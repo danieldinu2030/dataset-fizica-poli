@@ -56,7 +56,7 @@ def main():
         # Write to CSV
         with open(output_file, 'w', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
-            writer.writerow(['Section', 'Exercise', 'Answer'])
+            writer.writerow(['section', 'exercise_number', 'answer'])
             for exercise, answer in data_sorted:
                 writer.writerow([section_name, exercise, answer])
         

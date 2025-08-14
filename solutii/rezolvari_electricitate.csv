@@ -1,4 +1,4 @@
-Exercise,Solution
+exercise_number,solution
 "3.1","$E=E_{1}+E_{2}=7+7=14 \mathrm{~V} ; R_{e}=r_{1}+r_{1}+R=7 \Omega$;\\ $I=\frac{E}{R_{e}}=2 \mathrm{~A} ; E=R I^{2} t=1584 \mathrm{~J}$.\\"
 "3.2","Rezistența conductorului este egală cu:\\ $R=\rho \frac{l}{S}=0,17 \Omega$, iar intensitatea curentului este $I=\frac{U_{c}}{R}=60 \mathrm{~A}$.\\"
 "3.3","Noul circuit este reprezentat în figura problemei Din legile lui Kirchhoff:\\ $\left.\begin{array}{l} I_{3}=I_{1}+I_{2} \\ R_{1} I_{1}=R_{2} I_{2} \\ E=R_{3} I_{3}+R_{2} I_{2} \end{array}\right\} \Rightarrow I_{1}=\frac{R_{2} E}{R_{1} R_{2}+R_{1} R_{3}+R_{2} R_{3}}=1 \mathrm{~A}$\\ \begin{center} \includegraphics[width=0.4\linewidth]{images/2025_07_01_5b3ff9fa0d508c8e9f17g-341(1)}\\ Figura problemei \end{center}\\"

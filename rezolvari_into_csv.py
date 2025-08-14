@@ -40,7 +40,7 @@ with open(args.input_file, 'r', encoding='utf-8') as file:
 # Write results to CSV
 with open(args.output_file, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
-    writer.writerow(['Exercise', 'Solution'])
+    writer.writerow(['exercise_number', 'solution'])
     writer.writerows(exercises)
 
 # Report successful extractions

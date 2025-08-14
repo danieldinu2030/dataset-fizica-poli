@@ -1,3 +1,4 @@
+## Extract exercises to csv (file is a command line argument)
 
 import re
 import csv
@@ -22,8 +23,6 @@ author_pattern = re.compile(r"\(([^\)]+)\)\\\\")
 
 rows = []
 
-
-
 for match in exercise_pattern.finditer(data):
     ex_number = match.group(1)
     block = match.group(2).strip()
@@ -42,7 +41,7 @@ for match in exercise_pattern.finditer(data):
     text_split = block.split('A)', 1)
     exercise_text = ''
     if len(text_split) > 1:
-        text = text_split[0].replace('\\', '').strip()
+        text = text_split[0].strip()
         # Remove exercise number at the start, with or without space, dot, or asterisk
         if ex_number:
             pattern = r'^' + re.escape(ex_number) + r'\s*[:.]*\s*'
@@ -53,7 +52,7 @@ for match in exercise_pattern.finditer(data):
     author_matches = list(author_pattern.finditer(block))
     author = author_matches[-1].group(1).strip() if author_matches else ''
     # Extract graphic only if it appears after the author line
-    graphic = ''
+    graphic = 'N/A'
     if author_matches:
         # Look for includegraphics after the last author line
         after_author = block[author_matches[-1].end():]
@@ -62,19 +61,21 @@ for match in exercise_pattern.finditer(data):
             graphic = graphic_match.group(1).strip()
     # Compose row
     rows.append([
-        ex_number if ex_number else '',
-        exercise_text,
-        a, b, c, d, e, f,
-        author,
-        graphic
-    ])
+    ex_number.strip() if ex_number else '',
+    exercise_text.strip(),
+    a.strip(), b.strip(), c.strip(), d.strip(), e.strip(), f.strip(),
+    author.strip(),
+    graphic.strip()
+])
 
 # CSV header
 header = ["exercise_number", "exercise_text", "a", "b", "c", "d", "e", "f", "author", "graphic"]
 
+# Write results to CSV
 with open(output_file, "w", newline="", encoding="utf-8") as f:
-    writer = csv.writer(f)
+    writer = csv.writer(f, quoting=csv.QUOTE_ALL)
     writer.writerow(header)
     writer.writerows(rows)
 
+# Report successful extractions
 print(f"Extracted {len(rows)} exercises to {output_file}")
