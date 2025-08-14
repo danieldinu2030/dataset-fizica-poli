@@ -1,30 +1,14 @@
-# dataset-fizica-poli
+# Dataset Probleme Admitere Fizică Politehnica
 
-## Formatul unei linii (incluzand whitespaces)
+## Surse
 
-`<numar_ex> <text_ex>\\ A) var1; B) var2; C) var3; D) var4; E) var5; F) var6.\\ (<nume_autor>)\\`
+- Culegerea oficială a universității cu probleme pentru admiterea la fizică, ediția 2010:
+    - **Mecanică**: 327 probleme
+    - **Fizică Moleculară și Termodinamică**: 314 probleme
+    - **Electricitate și Magnetism**: 209 probleme
 
-## Comenzi GitHub
+## Conținut
 
-**Inainte de lucru:**
-
-- `git fetch origin` ca sa vezi ce e schimbat
-
-- `git pull origin main` sincronizeaza ce am eu cu main
-
-**In timpul lucrului:**
-
-- `git status` iti arata ce fisiere ai modificat de la ultimul commit din repository
-
-- `git log` afiseaza commit-urile recente
-
-**Dupa lucru:**
-
-- `git add .` adauga in zona de staging toate modificarile aduse de tine
-
-- `git commit -m "mesaj"` realizeaza commit-ul modificarilor tale
-
-- `git push origin main` iti include modificarile in proiectul originar
-
-- `git rebase` daca push nu functioneaza, probabil e pentru ca eu am dat push la modificarile mele in timp ce tu lucraisi local exista un conflict; in cazul asta, dai rebase, apoi din nou push
-
+- fișiere LaTeX provenite din culegerea de probleme scanată, editate și formatate pe linii
+- fișiere `.csv` intermediare pentru enunțuri, răspunsuri și rezolvări
+- fișiere `.csv` finale care reunesc toate informațiile problemelor
