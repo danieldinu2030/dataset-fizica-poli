@@ -1,5 +1,5 @@
 ## Adds measure units with LaTeX math 
-# 10 kg becomes $10 \mathrm{~kg}$
+# 10 kg becomes $10 \mathrm{~kg}$ and so on
 
 import re
 import argparse
@@ -9,7 +9,12 @@ def replace_units(filename):
         content = f.read()
 
     # Define units list
-    units = ["m", "kg", "J", "K", "s", "N", "Pa", "W", "Hz", "kJ", "kW", "A", "V"]
+    units = ["m", "cm", "mm", "km",             # length 
+             "g", "kg", "Pa", "kPa", "atm",     # weight, pressure
+             "J", "kJ", "MJ",                   # heat, work
+             "K", "s", "ms", "h",               # absolute temperature, time 
+             "N", "kN", "W", "kW",              # force, power 
+             "Hz", "A", "mA", "V"]              # frequency, current, tension
     unit_pattern = r"\b(\d+(?:\.\d+)?)\s*(" + "|".join(units) + r")\b"
 
     # Replacement function to format properly
