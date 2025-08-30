@@ -8,6 +8,7 @@
     - **Electricitate și Magnetism**: 209 probleme
 
 - Chestionarele de concurs date la admiteri, simulări și/sau preadmiteri:
+    - Admitere Fizică F, **iulie 2024**: 10 probleme
     - Preadmitere Fizică F, **aprilie 2024**: 10 probleme
     - Simulare Fizică F, **martie 2024**: 10 probleme
     - Admitere Fizică Fb, **iulie 2023**: 10 probleme
@@ -21,6 +22,7 @@
     - Admitere Fizică F, **iulie 2012**: 18 probleme
     - Admitere Fizică F, **iulie 2011**: 18 probleme
     - Admitere Fizică F, **iulie 2010**: 18 probleme
+    - Admitere Fizică F1, **iulie 2009**: 18 probleme
     - Admitere Fizică F, **iulie 2007**: 18 probleme
     - Admitere Fizică FA, **iulie 2006**: 18 probleme
     - Admitere Fizică FA, **iulie 2003**: 18 probleme
