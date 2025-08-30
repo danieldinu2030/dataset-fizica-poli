@@ -1,0 +1,92 @@
+\section*{Tipul F1}
+\begin{enumerate}
+  \item Un corp coboară fără frecare pe un plan înclinat de unghi $30^{\circ}$. Accelerația corpului este $\left(\mathrm{g}=10 \mathrm{~m} / \mathrm{s}^{2}\right)$ :
+\end{enumerate}
+
+\section*{Rezolvare}
+Forța care acționează asupra corpului şi îi imprimă accelerația este componenta tangențială (paralelă cu planul înclinat) a greutății sale:\\
+$G_{t}=m g \sin \alpha$\\
+unde $\alpha$ este unghiul planului înclinat.\\
+Aplicând expresia principiului al doilea al mecanicii, $\vec{F}=m \vec{a}$, rezultă $a=\frac{G_{t}}{m}=g \sin \alpha$, adică $a=10 \cdot \frac{1}{2}=5 \mathrm{~m} / \mathrm{s}^{2}$.\\
+2. Puterea disipată pe un rezistor cu rezistența de $2 \Omega$ parcurs de un curent de $2 \mathrm{~A}$ este egală cu:
+
+\section*{Rezolvare}
+Conform definiției puterii electrice, $P=U I$ și legii lui Ohm pentru o porțiune de circuit, $U=R I$, rezultă $P=R I^{2}$, adică\\
+$P=2 \cdot 4=8 \mathrm{~W}$.\\
+3. Utilizând notațiile din manualele de fizică, ecuația termică de stare a gazului ideal este:
+
+Rezolvare\\
+$p V=\nu R T$\\
+4. La legarea în serie sau în paralel a patru generatoare electrice identice, puterea disipată pe un rezistor este $P=160 \mathrm{~W}$. Puterea disipată de un singur generator pe acelaşi rezistor este:
+
+\section*{Rezolvare}
+La legarea în serie a celor patru generatoare identice, intensitatea curentului prin rezistorul de rezistență $R$, conectat la bornele acestei baterii de generatoare, este:\\
+$I_{s}=\frac{4 E}{R+4 r}$, iar puterea disipată pe rezistor este $P=R I_{s}^{2}$.\\
+La legarea generatoarelor în paralel, intensitatea curentului prin acelaşi rezistor de rezistență $R$, conectat la noua baterie de generatoare, este:\\
+$I_{p}=\frac{E}{R+\frac{r}{4}}$, iar puterea disipată pe rezistor este $P=R I_{p}^{2}$.\\
+Egalând puterile şi înlocuind expresiile $I_{s}$ şi $I_{p}$, rezultă $R=r$.\\
+La conectarea rezistorului la un singur generator, intensitatea curentului prin circuit este $I=\frac{E}{R+r}$. Ținând cont că $R=r, I=\frac{E}{2 R}$, iar puterea disipată pe rezistor este $P^{\prime}=R I^{2}$, adică $P^{\prime}=\frac{E^{2}}{4 R}$.
+
+Din $P=R I_{p}^{2}$ şi $R=r$ rezultă:\\
+$P=R I_{p}^{2}=R\left(\frac{E}{R+\frac{r}{4}}\right)^{2}=R\left(\frac{E}{R+\frac{R}{4}}\right)^{2}=\frac{16}{25} \frac{E^{2}}{R}$,\\
+adică $\frac{E^{2}}{R}=\frac{25}{16} P$. Ca urmare, $P^{\prime}=\frac{E^{2}}{4 R}=\frac{1}{4} \cdot \frac{25}{16} P=62,5 \mathrm{~W}$.\\
+5. O masă de 150 g de gaz ideal ( $\mu=18 \mathrm{~g} / \mathrm{mol}$ ) suferă o transformare în care presiunea variază linear cu volumul. Gazul trece din starea $p_{1}=7 \cdot 10^{5} \mathrm{~Pa}, V_{1}=32$ litri în starea $p_{2}=10^{6} \mathrm{~Pa}, V_{2}=22$ litri. Temperatura maximă atinsă de gaz în această transformare este ( $R=8,3 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ ):
+
+\section*{Rezolvare}
+Gazul suferă o transformare generală descrisă în coordonate ( $\mathrm{p}, \mathrm{V}$ ) prin legea $p(V)=a \cdot V+b$, în care $a=\frac{p_{2}-p_{1}}{V_{2}-V_{1}}$ şi $b=p_{1}-a \cdot V_{1}$, adică $a=-3 \cdot 10^{7} \mathrm{~Pa} / \mathrm{m}^{3}$ respectiv $b=16,6 \cdot 10^{5} \mathrm{~Pa}$. Înlocuind în această relație expresia presiunii $p=\frac{v R T}{V}$, așa cum rezultă din ecuația termică de stare a gazului ideal, se obține legea transformării generale a gazului în coordonate $(\mathrm{V}, \mathrm{T})$ : $T(V)=\frac{1}{v R}\left(a \cdot V^{2}+b \cdot V\right)$. Din condiția de extremum a acestei funcții, când volumul gazului este $V_{M}=-\frac{b}{2 a}$, el atinge temperatura maximă $T_{\text {max }}\left(V=V_{M}\right)=\frac{1}{v R}\left(\frac{-b^{2}}{4 a}\right)$ adică $T_{\text {max }}=332 \mathrm{~K}$.\\
+6. O forță de $20 \mathrm{~N}$ acţionează asupra unui corp de masă $m=5 \mathrm{~kg}$ aflat în repaus pe o suprafață orizontală. Dacă se neglijează frecarea, spațiul parcurs de corp în primele 5 secunde de mişcare este:
+
+\section*{Rezolvare}
+Accelerația imprimată corpului rezultă din expresia principiului al doilea al mecanicii, $\vec{F}=m \vec{a}$, adică $a=\frac{F}{m}$.\\
+Legea spațiului pentru corpul care pleacă din repaus este: $s=\frac{1}{2} a t^{2}$. Rezultă $s=\frac{1}{2} \frac{F}{m} t^{2}$, adică $s=\frac{1}{2} \frac{20}{5} \cdot 25=50 \mathrm{~m}$.\\
+7. La capetele unui conductor de rezistență $2 \Omega$ se aplică o tensiune electrică de $4 \mathrm{~V}$ . Intensitatea curentului electric prin conductor este:
+
+\section*{Rezolvare}
+Aplicând legea lui Ohm pentru o porțiune de circuit, $I=\frac{U}{R}$, rezultă:\\
+$I=\frac{4}{2}=2 \mathrm{~A}$.\\
+8. Căldura disipată de un consumator cu rezistența de $20 \Omega$ străbătut de un curent de intensitate $2 \mathrm{~A}$ timp de 5 minute este:
+
+\section*{Rezolvare}
+Conform definiției $Q=W=U I t=R I^{2} t$, adică $Q=20 \cdot 4 \cdot(5 \cdot 60)=24000 \mathrm{~J}$, adică $Q=24 \mathrm{~kJ}$.\\
+9. Volumul unui mol de gaz ideal la temperatura de $300 \mathrm{~K}$ şi presiunea de $10^{5} \mathbf{~ P a}$ ( $\mathbf{R} \boldsymbol{=} \mathbf{8 , 3} \mathbf{~ J} / \mathbf{m o l} \cdot \mathbf{K}$ ) este egal cu:
+
+\section*{Rezolvare}
+Din ecuația termică de stare a gazului ideal, $p V=v R T$, se obține $V=\frac{v R T}{p}$, adică $V=\frac{1 \cdot 8,3 \cdot 300}{10^{5}}=0,0249 \mathrm{~m}^{3}$.\\
+10. Energia cinetică a unui corp de masă $m=2 \mathrm{~kg}$, care se mişcă cu viteza de $5 \mathrm{~m} / \mathrm{s}$, este:
+
+\section*{Rezolvare}
+Conform definiției energiei cinetice, $E_{c}=\frac{1}{2} m v^{2}$, rezultă $E_{c}=\frac{1}{2} 2 \cdot 25=25 \mathrm{~J}$.
+
+\section*{11. Randamentul unui ciclu Carnot având temperaturile $T_{1}=500 \mathrm{~K}$ şi $T_{2}=300 \mathrm{~K}$ este:}
+\section*{Rezolvare}
+Randamentul ciclului Carnot, exprimat în funcție de temperaturile surselor caldă ( $T_{1}$ ) şi respectiv rece $\left(T_{2}\right)$, este $\eta=1-\frac{T_{2}}{T_{1}}$, adică : $\eta=1-\frac{300}{500}=0,4$.\\
+12. Un gaz ideal aflat la presiunea de $10^{5} \mathrm{~Pa}$ suferă o transformare izocoră în urma căreia temperatura gazului se dublează. Presiunea gazului creşte cu:
+
+\section*{Rezolvare}
+Aplicând legea transformării izocore, $\frac{p}{T}=$ const., se obține $\frac{p_{1}}{T_{1}}=\frac{p_{2}}{2 T_{1}}$ şi $p_{2}=2 p_{1}$. Presiunea gazului creşte cu $\Delta p=p_{2}-p_{1}=p_{1}$, adică $\Delta p=10^{5} \mathrm{~Pa}$.\\
+13. Temperatura unui kilogram de apă (cu căldura specifică $c=4185 \mathrm{~J} / \mathrm{kgK}$ ), care primeşte 0 cantitate de căldură de $83700 \mathrm{~J}$ , variază cu:
+
+\section*{Rezolvare}
+Din definiția căldurii specifice a unei substanțe, $c=\frac{Q}{m \Delta T}$, rezultă $\Delta T=\frac{Q}{m c}$, adică $\Delta T=\frac{83700}{1 \cdot 4185}=20 \mathrm{~K}$ sau $\Delta t=20^{\circ} \mathrm{C}$.\\
+14. Utilizând notațiile din manualele de fizică, legea lui Ohm pentru circuitul simplu este:
+
+Rezolvare\\
+$I=\frac{E}{R+r}$\\
+15. Unitatea de măsură în SI pentru impuls este:
+
+Rezolvare\\
+$[p]_{\mathrm{SI}}=\mathrm{kg} \cdot \mathrm{m} / \mathrm{s}$\\
+16. Sub acțiunea unei forțe deformatoare $F$, alungirea absolută a unui resort cu constanta de elasticitate $\boldsymbol{k}$ este:
+
+Rezolvare\\
+Conform definiției, $F=k \cdot \Delta l$, adică\\
+$\Delta l=\frac{F}{k}$.\\
+17. Legea de mişcare a unui mobil este $x(t)=2 t^{2}-8 t+21$ (m). Coordonata $\boldsymbol{x}$ a mobilului la momentul de timp $t=2$ s este:
+
+Rezolvare\\
+Întroducând valoarea $t=2 \mathrm{~s}$ în legea de mişcare se obține:\\
+$x(2)=2 \cdot 4-8 \cdot 2+21=13 \mathrm{~m}$.\\
+18. Două rezistoare cu rezistențele de $2 \Omega$ şi respectiv $8 \Omega$ sunt legate în paralel. Rezistența echivalentă a grupării este:
+
+Rezolvare\\
+Din $\frac{1}{R_{p}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}$ rezultă $R_{p}=\frac{R_{1} R_{2}}{R_{1}+R_{2}}$, adică $R_{p}=1,6 \Omega$.
