@@ -8,6 +8,7 @@
     - **Electricitate și Magnetism**: 209 probleme
 
 - Chestionarele de concurs date la admiteri, simulări și/sau preadmiteri:
+    - **Total**: 298 probleme
     - Admitere Fizică F, **iulie 2024**: 10 probleme
     - Preadmitere Fizică F, **aprilie 2024**: 10 probleme
     - Simulare Fizică F, **martie 2024**: 10 probleme
@@ -34,7 +35,9 @@
     - Fișiere LaTeX provenite din culegerea de probleme scanată, editate și formatate pe linii
     - Fișiere `.csv` intermediare pentru enunțuri, răspunsuri și rezolvări
     - Fișiere `.csv` finale care reunesc toate informațiile problemelor
+    - Script-uri Python utilizate pentru prelucrarea fișierelor
 
 - Din subiectele de admitere:
     - Fișiere LaTeX provenite din PDF-urile scanate, editate și formatate pe linii
     - Fișiere `.csv` finale care reunesc toate informațiile problemelor
+    - Script-uri Python utilizate pentru prelucrarea fișierelor
