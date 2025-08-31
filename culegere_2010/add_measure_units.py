@@ -11,7 +11,7 @@ def replace_units(filename):
     # Define units list
     units = ["m", "cm", "mm", "km",             # length 
              "g", "kg", "Pa", "kPa", "atm",     # weight, pressure
-             "J", "kJ", "MJ",                   # heat, work
+             "J", "kJ", "MJ", "C",              # heat, work, electric charge
              "K", "s", "ms", "h",               # absolute temperature, time 
              "N", "kN", "W", "kW",              # force, power 
              "Hz", "A", "mA", "V"]              # frequency, current, tension
