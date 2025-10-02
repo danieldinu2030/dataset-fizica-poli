@@ -1,5 +1,14 @@
 # Dataset Probleme Admitere Fizică Politehnica
 
+Problemele din setul de date sunt scrise integral în **LaTeX**, conținând enunțuri, câte 6 variante de răspuns, soluția și rezolvarea, dezvoltată în funcție de caz.
+Pentru compilarea părților din set, este necesară includerea următoarelor pachete:
+
+```c
+\usepackage{graphicx}    % pentru \includegraphics
+\usepackage{amsmath}     % pentru \text, align
+\usepackage{array}       % pentru array
+```
+
 ## Surse
 
 - Culegerea oficială a UPB cu probleme pentru admiterea la fizică, ediția 2010:
